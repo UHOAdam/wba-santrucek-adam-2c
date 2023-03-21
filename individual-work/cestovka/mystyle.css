@@ -1,3 +1,20 @@
+
+
+@media screen and (max-width: 1074px) {
+    .herotext {
+    background: rgba(0, 0, 0, 0.2);
+    display:flex;
+    width: 90%;
+    height:310px;
+    margin-left: 10%;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }   
+}
+
+@media screen and (min-width: 1075px){
 body {
     margin: 0;
 }
@@ -41,4 +58,60 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.pozadi {
+    display:flex;
+    background-color: rgba(248, 247, 236, 0.5);
+    width:100%;
+    height:1031px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.pozadi h2 {
+    text-align:center;
+    padding-bottom:50px;
+}
+
+
+.ostrovy {
+    display:flex;
+    flex-direction:row;
+    margin-bottom:60px;
+    text-align:center;
+}
+
+.Atlantik {
+width: 350px;
+}
+
+.ZStredomori {
+width: 350px;
+margin-left:30px;
+margin-right:30px;
+}
+
+.VStredomori {
+width: 350px;
+}
+
+.Aimage {
+content: url(madeira.png);
+height: 350px;  
+width: 350px;
+}
+
+.Zimage {
+content: url(sardinie.png);
+height: 350px;
+width: 350px;
+}
+
+.Vimage {
+content: url(kypr.png);
+height: 350px;
+width: 350px;
+}
 }
