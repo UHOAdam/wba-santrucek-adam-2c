@@ -1,0 +1,47 @@
+.contactbackground {
+    display: flex;
+    background-color: rgba(248, 247, 236, 0.5);
+    width: 100%;
+    height: calc(100vh - 300px);
+    justify-content: center;
+    align-items: center;   
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.contactgrid {
+    width: 780px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 40px 40px 40px; 
+    gap: 30px 30px; 
+    grid-template-areas: 
+      "input1 input2"
+      "input3 input4"
+      "input5 input5"; 
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .input5 { grid-area: input5; }
+  .input3 { grid-area: input3; }
+  .input4 { grid-area: input4; }
+  .input1 { grid-area: input1; }
+  .input2 { grid-area: input2; }
+
+  .contactbutton {
+    display: flex;
+    width: 100px;
+    background-color: rgba(124, 116, 116, 1);
+    width: 30%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
